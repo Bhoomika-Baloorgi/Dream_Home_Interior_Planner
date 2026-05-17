@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "76011768498",
+    "project_id": "dream-home-interior",
+    "storage_bucket": "dream-home-interior.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76011768498:android:f0daf669347bc5034117ab",
+        "android_client_info": {
+          "package_name": "com.example.dream_home_interior_planner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFxwOO2UrErm9x35u4sM1A6Q5n96wfSgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

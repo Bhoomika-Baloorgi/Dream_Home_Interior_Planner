@@ -1,0 +1,84 @@
+name: dream_home_interior_planner
+description: A Dream Home Interior Planner Flutter App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  image_picker: ^1.0.7
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.2.1
+  path_provider: ^2.1.2
+  uuid: ^4.3.3
+
+
+  # Firebase Dependencies
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.14.0
+  cloud_firestore: ^4.13.0
+  firebase_storage: ^11.5.0
+  pigeon: ^26.3.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+    android: true
+    ios: false
+    image_path: "assets/logo.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/furniture/bean_bag.png
+    - assets/furniture/bean_bag_2.png
+    - assets/furniture/bed.png
+    - assets/furniture/bed_2.png
+    - assets/furniture/bookshelf.png
+    - assets/furniture/bookshelf_2.png
+    - assets/furniture/ceiling_light.png
+    - assets/furniture/ceiling_light_2.png
+    - assets/furniture/chair.png
+    - assets/furniture/chair_2.png
+    - assets/furniture/coffee_table.png
+    - assets/furniture/coffee_table_2.png
+    - assets/furniture/desk.png
+    - assets/furniture/desk_2.png
+    - assets/furniture/dining_chair.png
+    - assets/furniture/dining_chair_2.png
+    - assets/furniture/dining_table.png
+    - assets/furniture/dining_table_2.png
+    - assets/furniture/lamp.png
+    - assets/furniture/lamp_2.png
+    - assets/furniture/nightstand.png
+    - assets/furniture/nightstand_2.png
+    - assets/furniture/ottoman.png
+    - assets/furniture/ottoman_2.png
+    - assets/furniture/plant.png
+    - assets/furniture/plant_2.png
+    - assets/furniture/sofa.png
+    - assets/furniture/sofa_2.png
+    - assets/furniture/table.png
+    - assets/furniture/table_2.png
+    - assets/furniture/tv_unit.png
+    - assets/furniture/tv_unit_2.png
+    - assets/furniture/wardrobe.png
+    - assets/furniture/wardrobe_2.png
+    - assets/rooms/bedroom.png
+    - assets/rooms/living_room.png
+    - assets/rooms/kitchen.png
+    - assets/rooms/office.png
